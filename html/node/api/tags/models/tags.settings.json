@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tags",
+  "info": {
+    "name": "tags",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tagName": {
+      "type": "string"
+    },
+    "bai_viets": {
+      "collection": "bai-viet",
+      "via": "tags",
+      "dominant": true
+    }
+  }
+}

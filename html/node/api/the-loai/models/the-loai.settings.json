@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "the_loais",
+  "info": {
+    "name": "theLoai",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "bai_viets": {
+      "via": "the_loai",
+      "collection": "bai-viet"
+    }
+  }
+}

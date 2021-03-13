@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dia_diems",
+  "info": {
+    "name": "diaDiem",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ten": {
+      "type": "string"
+    },
+    "bai_viets": {
+      "collection": "bai-viet",
+      "via": "dia_diem"
+    }
+  }
+}

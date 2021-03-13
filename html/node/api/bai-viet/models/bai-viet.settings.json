@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bai_viets",
+  "info": {
+    "name": "bai-viet",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tieuDe": {
+      "type": "string"
+    },
+    "noiDung": {
+      "type": "richtext"
+    },
+    "anhGioiThieu": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "slug": {
+      "type": "string"
+    },
+    "mien": {
+      "model": "mien",
+      "via": "bai_viets"
+    },
+    "the_loai": {
+      "model": "the-loai",
+      "via": "bai_viets"
+    },
+    "mota": {
+      "type": "string"
+    },
+    "dia_diem": {
+      "via": "bai_viets",
+      "model": "dia-diem"
+    },
+    "tags": {
+      "via": "bai_viets",
+      "collection": "tags"
+    }
+  }
+}
