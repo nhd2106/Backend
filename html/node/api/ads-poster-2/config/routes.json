@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ads-poster-2",
+      "handler": "ads-poster-2.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ads-poster-2",
+      "handler": "ads-poster-2.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ads-poster-2",
+      "handler": "ads-poster-2.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

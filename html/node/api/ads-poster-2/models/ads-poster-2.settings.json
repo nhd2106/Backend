@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "ads_poster_2s",
+  "info": {
+    "name": "Ads Poster 2"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "url": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

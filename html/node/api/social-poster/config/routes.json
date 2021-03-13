@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/social-poster",
+      "handler": "social-poster.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/social-poster",
+      "handler": "social-poster.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/social-poster",
+      "handler": "social-poster.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "group_banners",
+  "info": {
+    "name": "GroupBanner"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "url": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
