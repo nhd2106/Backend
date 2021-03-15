@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepage_seos",
+  "info": {
+    "name": "homepage seo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desccription": {
+      "type": "text"
+    },
+    "keywords": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

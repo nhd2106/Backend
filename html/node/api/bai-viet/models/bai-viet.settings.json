@@ -43,12 +43,15 @@
       "type": "string"
     },
     "dia_diem": {
-      "via": "bai_viets",
-      "model": "dia-diem"
+      "model": "dia-diem",
+      "via": "bai_viets"
     },
     "tags": {
-      "via": "bai_viets",
-      "collection": "tags"
+      "collection": "tags",
+      "via": "bai_viets"
+    },
+    "keywords": {
+      "type": "string"
     }
   }
 }

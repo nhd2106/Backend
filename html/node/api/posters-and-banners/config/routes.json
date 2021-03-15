@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/posters-and-banners",
+      "handler": "posters-and-banners.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/posters-and-banners",
+      "handler": "posters-and-banners.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/posters-and-banners",
+      "handler": "posters-and-banners.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -15,8 +15,8 @@
       "type": "string"
     },
     "bai_viets": {
-      "collection": "bai-viet",
       "via": "tags",
+      "collection": "bai-viet",
       "dominant": true
     }
   }
