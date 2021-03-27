@@ -25,7 +25,7 @@ const Editor = ({ onChange, name, value }) => {
           tinymceScriptSrc='/tinymce/js/tinymce/tinymce.min.js'
           value={value}
           init={{
-            height: 500,
+            height: 900,
             menubar: false,
             // eslint-disable-next-line @typescript-eslint/camelcase
             convert_urls: false,

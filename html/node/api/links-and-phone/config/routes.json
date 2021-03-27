@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/social-poster",
-      "handler": "social-poster.find",
+      "path": "/links-and-phone",
+      "handler": "links-and-phone.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/social-poster",
-      "handler": "social-poster.update",
+      "path": "/links-and-phone",
+      "handler": "links-and-phone.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/social-poster",
-      "handler": "social-poster.delete",
+      "path": "/links-and-phone",
+      "handler": "links-and-phone.delete",
       "config": {
         "policies": []
       }

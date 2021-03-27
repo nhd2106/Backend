@@ -40,7 +40,7 @@
       "via": "bai_viets"
     },
     "mota": {
-      "type": "string"
+      "type": "text"
     },
     "dia_diem": {
       "model": "dia-diem",
@@ -52,6 +52,9 @@
     },
     "keywords": {
       "type": "string"
+    },
+    "muc_luc": {
+      "type": "text"
     }
   }
 }

@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "links_and_phones",
+  "info": {
+    "name": "Links and Phone"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "facebook": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "integer"
+    }
+  }
+}
