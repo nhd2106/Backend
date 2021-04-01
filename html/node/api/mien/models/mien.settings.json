@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "miens",
   "info": {
-    "name": "mien"
+    "name": "mien",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -14,8 +15,11 @@
       "type": "string"
     },
     "bai_viets": {
-      "via": "mien",
-      "collection": "bai-viet"
+      "collection": "bai-viet",
+      "via": "mien"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }

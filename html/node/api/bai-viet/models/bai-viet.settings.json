@@ -32,12 +32,12 @@
       "type": "string"
     },
     "mien": {
-      "model": "mien",
-      "via": "bai_viets"
+      "via": "bai_viets",
+      "model": "mien"
     },
     "the_loai": {
-      "model": "the-loai",
-      "via": "bai_viets"
+      "via": "bai_viets",
+      "model": "the-loai"
     },
     "mota": {
       "type": "text"
